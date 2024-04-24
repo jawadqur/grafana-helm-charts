@@ -45,11 +45,11 @@ dependencies:
     condition: grafana.enabled
     repository: https://grafana.github.io/helm-charts
     version: "^7.3.9"
-  - name: loki
+  - name: loki-distributed
     alias: loki
     condition: loki.enabled
     repository: "https://grafana.github.io/helm-charts"
-    version: "^6.3.3"
+    version: "^6.3.4"
   - name: mimir-distributed
     alias: mimir
     condition: mimir.enabled
